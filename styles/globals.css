@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Tajawal-Medium';
+    src: url('../public/fonts/Tajawal-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*@font-face {*/
+/*    font-family: 'Futura-Bold-font';*/
+/*    src: url('../public/fonts/Futura-Bold-font.ttf') format('truetype');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*    font-display: swap;*/
+/*}*/
+
+.font-tajwal-medium, button, .Toastify__toast-body {
+    font-family: 'Tajawal-Medium', 'sans-serif' !important;
+}
+
+.font-future-bold {
+    font-family: 'Futura-Bold-font', 'sans-serif';
+}
+
+.react-select__control
+.react-select__value-container,
+.react-select__indicators,
+.react-select__menu,
+.react-select__menu-list
+.react-select__option,
+.react-select__single-value,
+.react-select__input,
+.react-select__placeholder {
+    background-color: #141E3C !important;
+    color: white !important;
+    border: 0px solid white;
+}
+
+.react-select__control {
+    border: 1px solid #141E3C;
+    border-radius: 5px !important;
+    max-height: 45px !important;
+}
+
+.slick-prev:before {
+    color: black !important;
+}
+
+.slick-next:before {
+    color: black !important;
+}
+
+#headerModalTitle {
+    min-width: 35rem !important;
+    font-family: 'Tajawal-Medium', 'sans-serif' !important;
+}
+
+.css-195y93z-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+    background-color: #189EC9 !important;
+    color : white !important;
+    border: none !important;
+}
+
+.custom-shape-divider-bottom-1671694782 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+[role=tablist] button {
+    color : #189EC9;
+    background-color: white;
+}
+
+
